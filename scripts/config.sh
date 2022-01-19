@@ -27,6 +27,7 @@ RTEMS_VER=5
 # using github.com mirror for now
 #RSB_GIT_URL="git://git.rtems.org/rtems-source-builder"
 RSB_GIT_URL="https://github.com/RTEMS/rtems-source-builder"
+RSB_GIT_URL="https://github.com/rachana-reflex/rtems-source-builder"
 
 BUILD_STAGE_DIR="build"
 BUILD_ARGS="--with-ada"

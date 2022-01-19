@@ -35,7 +35,7 @@ log_msg info "Preparing build stage..."
 # if not, then fetch it from git
 log_msg info "Preparing RTEMS Source Builder..."
 cd $BUILD_STAGE_PATH
-[ -d "$RSB_DIR" ] || git clone $RSB_GIT_URL $RSB_DIR
+[ -d "$RSB_DIR" ] || git clone -b 5 --single-branch $RSB_GIT_URL $RSB_DIR
 
 # enter RSB and run build
 log_msg info "Starting build now..."
